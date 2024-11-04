@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* .color1 {
+  padding: 20px;
+  /* width: 200px;
+  background-color: rgba(0, 100, 0, 0.1); */
+/* background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7) 50%,
+      rgba(0, 0, 0, 0.356)
+    ),
+    url(/font/download.jfif);
+  background-size: cover; */
+/* height: 100vh; */
+/* } */
+<img src="images/bag8.png" alt="" />
+      <img src="images/bag5.png" alt="" /><img
+        src="images/bag24.png"
+        alt=""
+      /><img src="images/bag21.png" alt="" /><img
+        src="images/bag9.png"
+        alt=""
+      /><img src="images/bag13.png" alt="" /><img
+        src="images/bag18.png"
+        alt=""
+      /><img src="images/bag20.png" alt="" /><img
+        src="images/bag14.png"
+        alt=""
+      /><img src="images/bag6.png" alt="" /><img src="images/bag7.png" alt="" />
+.color1 {
+  padding: 20px;
+  background-color: green;
+  width: 300px;
+  height: 300px;
+}
+.color2 {
+  padding: 20px;
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+.color3 {
+  padding: 20px;
+  background-color: rebeccapurple;
+  width: 300px;
+  height: 300px;
+  flex-shrink: 5;
+
+}
+section {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row-reverse; */
+  gap: 20px;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+

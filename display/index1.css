@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1 {
+}
+.white {
+  background-color: white;
+  padding: 20px;
+  height: 300px;
+}
+.image {
+  padding: 20px;
+  height: 500px;
+}
+.images {
+  padding: 20px;
+  height: 500px;
+}
+.dispGrid {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100vh;
+  gap: 20px;
+  justify-content: center ;
+}

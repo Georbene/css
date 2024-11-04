@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dark{
+background-color: black;
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ball{
+background-color: yellowgreen;
+height: 50px;
+border-radius: 100px;
+width: 50px;
+/* animation: move;
+animation-duration: 5s;
+animation-timing-function: ease;
+animation-iteration-count: infinite; */
+
+/* transition: background-color padding border-radius 15s ; */
+animation: move 2s ease infinite;
+/* transition: background-color padding border-radius;
+transition-duration: 15s;
+transition-timing-function: ease; */
+}
+@keyframes move {
+0%{
+    transform: translate(0);
+}
+30%{
+    transform: translate(-150px, 0 );
+}
+50%{
+    transform: translate(-150px, -150px);
+}
+70%{
+    transform: translate(0px,-150px);
+}
+
+    /* from{
+    transform: translate(0,0);
+}
+to{
+    transform: translate(500px);
+} */
+
+}
+/* .ball:hover{
+    background-color: red;
+    padding: 500px;
+    border-radius: 100px;
+} */
